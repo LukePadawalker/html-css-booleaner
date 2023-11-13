@@ -2,8 +2,9 @@ body{
     margin: 0;
 }
 main{
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 1100px;
+    margin: 0 auto;
+
 }
 
 .primo_blocco{
@@ -18,8 +19,7 @@ main{
 
 #the_booleaner{
     width: 300px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    align-self: right center;
 }
 
 #author{
@@ -40,4 +40,38 @@ ul{
     margin: 0;
     padding: 0;
     list-style-position: inside;
+}
+
+table{
+
+    font-size: small;
+    padding: 0;
+    margin: 0;
+}
+
+thead{
+    background-color: rgb(0, 213, 255);
+    color:white;
+}
+
+.immagine1{
+    background-image: url("../img/monitor.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.immagine2{
+    background-image: url("../img/graph.jpg");
+    width: 300px;
+    height: 200px;
+}
+
+.scritta_immagini{
+    padding: 3%;
+    text-align: center right;
+    color: white;
+    text-decoration: solid;
+
+
 }
