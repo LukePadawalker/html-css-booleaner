@@ -5,7 +5,7 @@ body{
 .primo_blocco{
     max-width: 1080px ;
     height: 200px;
-    background-image: url(../html-css-booleaner/img/pattern.png);
+    background-image: url(html-css-booleaner/img/pattern.png);
     background-color: rgb(0, 149, 255);
     
 }
